@@ -1,0 +1,29 @@
+Um tópico está dividido/suportado em uma ou mais partições. Essas partições repreesentam 
+blocos de dados que estão persisitidos em disco no ntfs do broker
+as ACLs Significam access list controls. É um mecanismo para controlar o acesso a recursos do 
+cluster. Um producer ou consumer para acederem a um topico, devem ter permissões 
+atribuídas a este recurso por via de uma acl
+Os clusters kafka são compostos por servidores com funções de broker. Um broker é um 
+servidor executando o software apache kafka em java
+Um producer é um cliente kafka que , utilizando as APIs de produtor, produzem mensagens 
+para tópicos kafka.
+Um consumer é um cliente kafka que, utilizando as API de consumidor, subscrevem e 
+consomem dados dos tópicos.
+Nas versões iniciais do Kafka, um cluster de zookeeper é necessário para fazer o controlo do 
+offset aos consumidores
+O KIP 500 é uma alteração prevista na arquitetura para remover a necessidade de zookeeper.
+A confluent é uma empresa que desenvolve e explora versão comercial do kafka.
+Apache Kafka tornou-se o padrão de fato para streaming de dados semelhante ao Amazon S3 é 
+o padrão de fato para armazenamento de objetos. Kafka é usado em vários setores para muitos 
+casos de uso.
+A principal razão para o incrível crescimento da curva de adoção do Kafka é a variedade de 
+possíveis casos de uso para streaming de dados. O potencial é quase infinito. As características 
+do Kafka de combinar baixa latência, escalabilidade, confiabilidade e verdadeiro 
+desacoplamento estabelecem benefícios em todos os setores e casos de uso
+O Apache Kafka é uma excelente opção na integração assíncrona orientada por eventos para 
+aumentar o uso de integração síncrona e APIs, o que oferece ainda mais compatibilidade com 
+microsserviços e possibilita a integração ágil. 
+O Apache Kafka vem sendo mais adotado pela sua grande capacidade de processar 
+informações. Inicialmente, ele era um sistema interno desenvolvido pela LinkedIn para 
+processar 1,4 trilhão de mensagens por dia. Mas agora é uma solução de transmissão de dados 
+open source aplicável a variadas necessidades empresariais
